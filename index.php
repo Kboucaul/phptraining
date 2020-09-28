@@ -9,7 +9,8 @@
 <body>
 <ul>
   <li><a href=".">Accueil</a></li>
-  <li><a href="exercice1.php">Exo1</a></li>
+  <li><a href="/exercice1/exercice1.php">Exo1</a></li>
+  <li><a href="/exercice2/exercice2.php">Exo2</a></li>
   <!--
     <li><a href="contact.asp">Contact</a></li>
     <li><a href="about.asp">About</a></li>
