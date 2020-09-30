@@ -6,3 +6,27 @@ ul {
   h1 {
     text-align: center;
   }
+  .bad_log {
+    background: red;
+    font-weight: bold;
+    width: 120px;
+    border-radius: 5px;
+    margin: 10px 0px;
+  }
+  .good_log {
+    background:green;
+    font-weight: bold;
+    color: white;
+    width: 140px;
+    border-radius: 5px;
+    margin: 10px 0px;
+  }
+
+  .container {
+    text-align: center;
+    margin: 80px 150px;
+  }
+
+  input {
+    margin-bottom: 10px;
+  }

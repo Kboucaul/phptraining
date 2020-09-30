@@ -1,0 +1,45 @@
+1) Créer une requete qui permet d'afficher le nom, le prenom et l'age de toutes les personnes
+dont l'age est superieur a 50.
+
+==> SELECT Nom, Prenom, Age FROM `personne` WHERE `Age` > 50
+
+2) Créer une requete permettant d'afficher le nom, le prénom et l'age de toutes les personnes
+parlant francais et dont le nom commence par 'DU'.
+
+==> SELECT nom, prenom, age FROM `personne` WHERE `Nom` REGEXP 'Du' AND `Id_langue` = 1
+
+3) Créer une requete permettant d'afficher le nom, le prénom et l'age des trois premieres personnes
+dans l'ordre alphabetique de leur nom
+
+==> SELECT Nom, prenom, Age FROM `personne` ORDER BY `Nom` ASC Limit 3
+
+4) Creer une requete permettant d'afficher l'age moyen et la langue des personnes regroupéees
+par langue
+
+==> 
+
+5) Creer une requete permettant d'afficher l'age moyen arrondi a l'unite pres des personnes regroupées
+par langue qui ont la chaine de caractère 'ais' contenue dans leur langue
+
+==>
+
+6) Creer une requete permettant d'afficher les trois premieres lettres du nom concatenees avec un
+espace concatene avec les tros premieres lettres du Preom de spersonnes ayant un age superieur a 30 et,
+de plus, les trois dernieres  lettres du nom convcatenees avec un espace conacatene avec les trois dernieres
+lettres du prenom de spersonnes ayant un age inferieur a 30.  
+
+==>
+
+7) Creer une requete permettant d'afficher l'heure courante si le nom contient six characteres et l'heure
+courante plus une heure dans les autres cas.
+
+==>
+
+8) Creer une requete permettant d'afficher toutes les langues non parlées par Mr Dupont.
+
+==>
+
+9) Crééer une requete permettant d'afficher la somme des ages regroupés par langue de toutes les personnes
+qui parlent les langues non parlées par les personnes de 25 a 27 ans.
+
+==>
