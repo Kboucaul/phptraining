@@ -7,7 +7,7 @@ function process()
         $login = htmlspecialchars($_POST['login']);
         $password = htmlspecialchars($_POST['password']);
         try {
-            $pdo = new PDO('mysql:host=localhost;dbname=exo5', 'root', '');
+            $pdo = new PDO('mysql:host=localhost;dbname=exo4', 'root', '');
             $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
         
             $sql = 'SELECT * from user WHERE login = :login and password = :password';
